@@ -16,7 +16,7 @@
   <remote fetch="https://source.codeaurora.org/external/imxsupport" name="imx-support"/>
 
 
-  <remote fetch="git://github.com/embeddedartists"  name="EA"/>
+  <remote fetch="git://github.com/embeddedartists"  name="JK"/>
   <remote fetch="git://github.com/murata-wireless"  name="Murata"/>
 
   <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="5a551f453260bd19895e4d847877874eaa51fde3">
@@ -43,7 +43,7 @@
   <project name="meta-clang" path="sources/meta-clang" remote="clang" revision="d797409435d3b0e9f2859992439989ff1d81e66d"/>
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="46107357abd2d2da9ffd702c87fce3984a422435" upstream="imx_5.10.y" dest-branch="imx_5.10.y"/>
 
-  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="0b56b67f18ed0e5ffced083f9a1cec9d83d765bf" >
+  <project remote="JK" name="meta-ea" path="sources/meta-ea" revision="0b56b67f18ed0e5ffced083f9a1cec9d83d765bf" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
 
