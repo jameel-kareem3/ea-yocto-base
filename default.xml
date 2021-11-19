@@ -47,6 +47,6 @@
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
 
-  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="eada95869c14ce1953ab2adf3b7a4553595f57ec" />
+  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="d2138e3c2e0bdb598ebb07d50cf8313fe4017b8d" />
 
 </manifest>
